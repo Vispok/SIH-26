@@ -1,4 +1,5 @@
 import StatCard from '../components/StatCard'
+import FireMap from '../components/FireMap'
 
 function Dashboard() {
   return (
@@ -41,6 +42,8 @@ function Dashboard() {
         />
 
       </div>
+
+      <FireMap />
 
     </div>
   )
