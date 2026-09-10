@@ -2,7 +2,9 @@ function MapFilters({
   riskFilter,
   setRiskFilter,
   facilityFilter,
-  setFacilityFilter
+  setFacilityFilter,
+  timeFilter,
+  setTimeFilter
 }) {
   return (
     <div className="absolute top-4 right-4 z-[1000] bg-white rounded-xl shadow-lg border border-gray-200 p-4 w-64">
@@ -28,7 +30,7 @@ function MapFilters({
         </select>
       </div>
 
-      <div>
+      <div className="mb-4">
         <label className="block text-sm text-gray-500 mb-1">
           Facility Type
         </label>
@@ -47,9 +49,25 @@ function MapFilters({
         </select>
       </div>
 
+      <div>
+        <label className="block text-sm text-gray-500 mb-1">
+          Time Range
+        </label>
+
+        <select
+          value={timeFilter}
+          onChange={(e) => setTimeFilter(e.target.value)}
+          className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm"
+        >
+          <option value="ALL">All Time</option>
+          <option value="24H">Last 24 Hours</option>
+          <option value="7D">Last 7 Days</option>
+          <option value="30D">Last 30 Days</option>
+        </select>
+      </div>
+
     </div>
   )
 }
 
 export default MapFilters
-

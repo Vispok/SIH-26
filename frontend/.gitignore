@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.\backend\node_modules
+
+# Environment variables (contains DB password - never commit this)
+.env
+.env.local

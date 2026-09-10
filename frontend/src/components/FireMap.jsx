@@ -45,6 +45,7 @@ function FireMap() {
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [riskFilter, setRiskFilter] = useState('ALL')
   const [facilityFilter, setFacilityFilter] = useState('ALL')
+  const [timeFilter, setTimeFilter] = useState('ALL')
   
   let nearestFacility = null
 
@@ -82,11 +83,43 @@ function FireMap() {
     }
   }, [riskFilter, selectedEvent])
 
-  const filteredEvents = thermalEvents.filter((event) => {
-    if (riskFilter === 'ALL') return true
+const filteredEvents = thermalEvents.filter((event) => {
 
-    return event.risk === riskFilter
-  })
+  // Risk filter
+  if (
+    riskFilter !== 'ALL' &&
+    event.risk !== riskFilter
+  ) {
+    return false
+  }
+
+  // Time filter
+  if (timeFilter !== 'ALL') {
+
+    const eventTime = new Date(event.timestamp)
+    const now = new Date()
+
+    const difference =
+      now.getTime() - eventTime.getTime()
+
+    const hours =
+      difference / (1000 * 60 * 60)
+
+    if (timeFilter === '24H' && hours > 24) {
+      return false
+    }
+
+    if (timeFilter === '7D' && hours > 24 * 7) {
+      return false
+    }
+
+    if (timeFilter === '30D' && hours > 24 * 30) {
+      return false
+    }
+  }
+
+  return true
+})
 
   const filteredFacilities = industrialFacilities.filter((facility) => {
     if (facilityFilter === 'ALL') return true
@@ -154,6 +187,8 @@ function FireMap() {
         setRiskFilter={setRiskFilter}
         facilityFilter={facilityFilter}
         setFacilityFilter={setFacilityFilter}
+        timeFilter={timeFilter}
+        setTimeFilter={setTimeFilter}
       />
 
       <MapLegend />
