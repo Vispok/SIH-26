@@ -13,4 +13,4 @@ pool.on('connect', ()=>{
     console.log("Database is Connected Successfully");
 });
 
-module.exports = poolH 
+module.exports = pool;

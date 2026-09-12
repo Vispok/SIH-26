@@ -17,7 +17,7 @@ if(!MAP_KEY){
 const app=express();
 app.use(cors());
 
-let cache={data:null,fetchedAt:0,param:null};
+let cache={data:null,fetchedAt:0,params:null};
 
 if(fs.existsSync(SNAPSHOT_PATH)){
     try{
