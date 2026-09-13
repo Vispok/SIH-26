@@ -1,12 +1,15 @@
 import os
 import json
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "PASTE_YOUR_NVIDIA_API_KEY_HERE")
 
 NVIDIA_API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 
-MODEL_NAME = "nvidia/llama-3.1-nemotron-70b-instruct"
+MODEL_NAME = "moonshotai/kimi-k3"
 
 
 def build_prompt(anomaly: dict, facility: dict) -> str:
@@ -47,15 +50,14 @@ def classify_risk(anomaly: dict, facility: dict) -> dict:
         "messages": [
             {"role": "user", "content": build_prompt(anomaly, facility)}
         ],
-        "temperature": 0.2,
-        "max_tokens": 400,
+        "temperature": 0.2,   
+        "max_tokens": 2000,   
     }
 
-    response = requests.post(NVIDIA_API_URL, headers=headers, json=payload, timeout=30)
+    response = requests.post(NVIDIA_API_URL, headers=headers, json=payload, timeout=120)
     response.raise_for_status()
 
     raw_text = response.json()["choices"][0]["message"]["content"].strip()
-
     if raw_text.startswith("```"):
         raw_text = raw_text.strip("`")
         if raw_text.startswith("json"):
