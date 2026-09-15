@@ -1,0 +1,4552 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-09-15T19:04:09Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10721565",
+        "man_made": "works",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6928832,
+          29.0250031
+        ]
+      },
+      "id": "relation/10721565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12233008",
+        "description": "133960",
+        "landuse": "industrial",
+        "name": "Project Haridwar 3",
+        "operator": "Rays Power Infra",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5.75 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.rayspowerinfra.com/solar-projects-and-parks/",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7521995,
+          29.917502
+        ]
+      },
+      "id": "relation/12233008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13232788",
+        "barrier": "wall",
+        "description": "316720",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2188823,
+          29.0476124
+        ]
+      },
+      "id": "relation/13232788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/193330836",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Century Pulp And Paper Mill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.523881,
+          29.0615351
+        ]
+      },
+      "id": "way/193330836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/204007350",
+        "alt_name": "Kalagarh",
+        "name": "Ramganga Hydroelectric Power Plant",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "198 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q7289490",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.757622,
+          29.516921
+        ]
+      },
+      "id": "way/204007350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/234949920",
+        "building": "industrial",
+        "name": "Dhalipur Power Plant",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "51 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q111044306",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6820158,
+          30.4355708
+        ]
+      },
+      "id": "way/234949920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/234950739",
+        "building": "industrial",
+        "name": "Kulhal Power Plant",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "source": "https://www.ujvnl.com/operational-plants",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6296318,
+          30.428742
+        ]
+      },
+      "id": "way/234950739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256704079",
+        "building": "industrial",
+        "name": "power house",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0948579,
+          29.0057275
+        ]
+      },
+      "id": "way/256704079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/409621305",
+        "alt_name": "Kashipur (Gama) power station",
+        "landuse": "industrial",
+        "name": "Gama Infraprop Private Limited",
+        "operator": "Gama Infraprop Private Limited",
+        "plant:method": "combustion",
+        "plant:output:electricity": "225 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "source": "https://www.rlggroup.co.in/factory-gama.php",
+        "wikidata": "Q119661699",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9645215,
+          29.1415087
+        ]
+      },
+      "id": "way/409621305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/409621306",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9555448,
+          29.137646
+        ]
+      },
+      "id": "way/409621306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/409621335",
+        "landuse": "industrial",
+        "name": "Kashipur Sravanthi power station",
+        "operator": "Sravanthi Energy Private Limited",
+        "plant:method": "combustion",
+        "plant:output:electricity": "439 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "source": "https://sravanthigroup.com/operational-projects.html",
+        "wikidata": "Q119661928",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9752716,
+          29.155098
+        ]
+      },
+      "id": "way/409621335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/411279698",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2955358,
+          30.1135373
+        ]
+      },
+      "id": "way/411279698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/429714426",
+        "name": "Koteshwar Dam power plant",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "400 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q65200282",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.498931,
+          30.2600714
+        ]
+      },
+      "id": "way/429714426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/429714428",
+        "fixme": "position",
+        "location": "underground",
+        "name": "Tehri Dam Power House",
+        "operator": "Tehri Hydro Development Corporation Limited",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "1000 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "2006",
+        "wikidata": "Q69091",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4793839,
+          30.3700235
+        ]
+      },
+      "id": "way/429714428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/429776295",
+        "fixme": "position",
+        "location": "underground",
+        "name": "Dhauliganga power house",
+        "operator": "NHPC",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "280 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "October 2005",
+        "wikidata": "Q5269446",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5713486,
+          29.9253386
+        ]
+      },
+      "id": "way/429776295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/508582664",
+        "name": "Maneri Bhali I Power Station",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "90 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q65200287",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4447928,
+          30.7261592
+        ]
+      },
+      "id": "way/508582664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543609913",
+        "building": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5839219,
+          30.0552961
+        ]
+      },
+      "id": "way/543609913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/590539407",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Tata Motors",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4311256,
+          29.0291564
+        ]
+      },
+      "id": "way/590539407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615999752",
+        "barrier": "fence",
+        "description": "145830",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1966146,
+          29.0647179
+        ]
+      },
+      "id": "way/615999752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615999753",
+        "barrier": "fence",
+        "description": "148570",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1871827,
+          29.0519598
+        ]
+      },
+      "id": "way/615999753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/675980175",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "HMT",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.54384,
+          29.2937899
+        ]
+      },
+      "id": "way/675980175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750373",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0566328,
+          29.9684063
+        ]
+      },
+      "id": "way/695750373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750374",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.052982,
+          29.965376
+        ]
+      },
+      "id": "way/695750374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750375",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0551903,
+          29.9629868
+        ]
+      },
+      "id": "way/695750375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750376",
+        "man_made": "works",
+        "name": "Rockman Industries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0664602,
+          29.9595195
+        ]
+      },
+      "id": "way/695750376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750377",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.071637,
+          29.9481296
+        ]
+      },
+      "id": "way/695750377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750378",
+        "man_made": "works",
+        "name": "Vijai Electricals",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0765726,
+          29.9492126
+        ]
+      },
+      "id": "way/695750378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750379",
+        "man_made": "works",
+        "name": "Sterlite Technology",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0731355,
+          29.9666148
+        ]
+      },
+      "id": "way/695750379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750380",
+        "man_made": "works",
+        "name": "Havells",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0732492,
+          29.9653254
+        ]
+      },
+      "id": "way/695750380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750381",
+        "man_made": "works",
+        "name": "Hero MotoCorp",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0718383,
+          29.9615597
+        ]
+      },
+      "id": "way/695750381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750383",
+        "man_made": "works",
+        "name": "ITC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.079555,
+          29.9563172
+        ]
+      },
+      "id": "way/695750383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750385",
+        "man_made": "works",
+        "name": "Luminous Power Technologies Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0808249,
+          29.9493168
+        ]
+      },
+      "id": "way/695750385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750386",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0794578,
+          29.9499015
+        ]
+      },
+      "id": "way/695750386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750387",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.07821,
+          29.9497461
+        ]
+      },
+      "id": "way/695750387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750388",
+        "man_made": "works",
+        "name": "Eveready Industries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0787902,
+          29.9481994
+        ]
+      },
+      "id": "way/695750388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750389",
+        "man_made": "works",
+        "name": "Halonix",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0803453,
+          29.9483948
+        ]
+      },
+      "id": "way/695750389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695750390",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0780932,
+          29.9521842
+        ]
+      },
+      "id": "way/695750390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695753349",
+        "description": "8480",
+        "name": "BHEL SOlar Power Plant",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1072837,
+          29.9348993
+        ]
+      },
+      "id": "way/695753349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/701593016",
+        "building": "yes",
+        "hydroelectric": "yes",
+        "name": "Rajwakti Power House",
+        "plant:output:electricity": "4.4 MW",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3273396,
+          30.3089445
+        ]
+      },
+      "id": "way/701593016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945192",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0627268,
+          29.9592697
+        ]
+      },
+      "id": "way/705945192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945193",
+        "man_made": "works",
+        "name": "Classic Stripes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0650739,
+          29.9609458
+        ]
+      },
+      "id": "way/705945193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945194",
+        "man_made": "works",
+        "name": "Sunmax Auto Engineering",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0649423,
+          29.9634183
+        ]
+      },
+      "id": "way/705945194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945195",
+        "man_made": "works",
+        "name": "Napino Auto & Electronics",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.065023,
+          29.9619523
+        ]
+      },
+      "id": "way/705945195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945196",
+        "man_made": "works",
+        "name": "Satyam Auto Components",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0669272,
+          29.9637999
+        ]
+      },
+      "id": "way/705945196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945197",
+        "man_made": "works",
+        "name": "A.G. Industries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0669822,
+          29.9623696
+        ]
+      },
+      "id": "way/705945197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705945198",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0667737,
+          29.9560884
+        ]
+      },
+      "id": "way/705945198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/708075581",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9633965,
+          29.2081048
+        ]
+      },
+      "id": "way/708075581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/750596002",
+        "building": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4495069,
+          30.8097342
+        ]
+      },
+      "id": "way/750596002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581085",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.071377,
+          29.9518251
+        ]
+      },
+      "id": "way/773581085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581086",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0617425,
+          29.9624986
+        ]
+      },
+      "id": "way/773581086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581087",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061762,
+          29.9672546
+        ]
+      },
+      "id": "way/773581087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581088",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0582514,
+          29.9701291
+        ]
+      },
+      "id": "way/773581088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581089",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.054758,
+          29.9687423
+        ]
+      },
+      "id": "way/773581089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581090",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0498449,
+          29.9636465
+        ]
+      },
+      "id": "way/773581090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581091",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0512832,
+          29.9628751
+        ]
+      },
+      "id": "way/773581091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581092",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0561661,
+          29.9571873
+        ]
+      },
+      "id": "way/773581092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581093",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0607616,
+          29.9572809
+        ]
+      },
+      "id": "way/773581093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581094",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0575497,
+          29.9553758
+        ]
+      },
+      "id": "way/773581094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581096",
+        "man_made": "works",
+        "name": "Alps Industries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0670492,
+          29.9697155
+        ]
+      },
+      "id": "way/773581096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581097",
+        "man_made": "works",
+        "name": "Om Sai Pharma Pack",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.077308,
+          29.9661904
+        ]
+      },
+      "id": "way/773581097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581098",
+        "man_made": "works",
+        "name": "Lakhani Footwear",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0775102,
+          29.9611406
+        ]
+      },
+      "id": "way/773581098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581099",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0776843,
+          29.9623324
+        ]
+      },
+      "id": "way/773581099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581100",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.077366,
+          29.961774
+        ]
+      },
+      "id": "way/773581100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581101",
+        "man_made": "works",
+        "name": "Surya Processed Food",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.077589,
+          29.959024
+        ]
+      },
+      "id": "way/773581101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581102",
+        "man_made": "works",
+        "name": "Panasonic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0779778,
+          29.9580725
+        ]
+      },
+      "id": "way/773581102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773581103",
+        "man_made": "works",
+        "name": "Prime",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0779283,
+          29.9571515
+        ]
+      },
+      "id": "way/773581103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587281",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.683276,
+          29.0546129
+        ]
+      },
+      "id": "way/773587281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587283",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.686534,
+          29.0476838
+        ]
+      },
+      "id": "way/773587283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587286",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6882333,
+          29.0438213
+        ]
+      },
+      "id": "way/773587286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587287",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6876299,
+          29.0396852
+        ]
+      },
+      "id": "way/773587287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587288",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6858576,
+          29.0359065
+        ]
+      },
+      "id": "way/773587288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587289",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.689915,
+          29.0316577
+        ]
+      },
+      "id": "way/773587289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587290",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6865336,
+          29.0331176
+        ]
+      },
+      "id": "way/773587290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587291",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6842066,
+          29.0307594
+        ]
+      },
+      "id": "way/773587291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587293",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6846038,
+          29.0290847
+        ]
+      },
+      "id": "way/773587293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587294",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6841261,
+          29.0272451
+        ]
+      },
+      "id": "way/773587294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587295",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6856147,
+          29.027524
+        ]
+      },
+      "id": "way/773587295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773587296",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6852059,
+          29.0267224
+        ]
+      },
+      "id": "way/773587296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655114",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6826324,
+          29.0251794
+        ]
+      },
+      "id": "way/773655114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655115",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6871761,
+          29.0218992
+        ]
+      },
+      "id": "way/773655115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655117",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4396529,
+          28.9925248
+        ]
+      },
+      "id": "way/773655117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655118",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4073395,
+          29.0111835
+        ]
+      },
+      "id": "way/773655118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655119",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4073252,
+          29.0101012
+        ]
+      },
+      "id": "way/773655119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655120",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4043339,
+          29.00959
+        ]
+      },
+      "id": "way/773655120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655121",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4020771,
+          29.0100849
+        ]
+      },
+      "id": "way/773655121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655122",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4043435,
+          29.0110718
+        ]
+      },
+      "id": "way/773655122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655123",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4027288,
+          29.012519
+        ]
+      },
+      "id": "way/773655123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655124",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4073008,
+          29.0142666
+        ]
+      },
+      "id": "way/773655124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655125",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4034779,
+          29.0143698
+        ]
+      },
+      "id": "way/773655125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655126",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4036597,
+          29.0163207
+        ]
+      },
+      "id": "way/773655126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655127",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4058912,
+          29.0194579
+        ]
+      },
+      "id": "way/773655127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655128",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4029167,
+          29.0211318
+        ]
+      },
+      "id": "way/773655128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655129",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4232588,
+          28.9924427
+        ]
+      },
+      "id": "way/773655129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655130",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4205227,
+          28.9923759
+        ]
+      },
+      "id": "way/773655130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655131",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.424807,
+          28.9968815
+        ]
+      },
+      "id": "way/773655131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655132",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4212309,
+          28.9981938
+        ]
+      },
+      "id": "way/773655132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655133",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4155889,
+          29.0063506
+        ]
+      },
+      "id": "way/773655133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655134",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4043295,
+          29.0065054
+        ]
+      },
+      "id": "way/773655134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655135",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4116768,
+          29.0093027
+        ]
+      },
+      "id": "way/773655135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655136",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4173155,
+          29.0164364
+        ]
+      },
+      "id": "way/773655136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773655137",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3967766,
+          29.0344235
+        ]
+      },
+      "id": "way/773655137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/823015160",
+        "building": "industrial",
+        "name": "Shrinagar Hydro electric Power Plant",
+        "operator": "GVK",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "330 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q24907337",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7915527,
+          30.230671
+        ]
+      },
+      "id": "way/823015160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/823015162",
+        "name": "Shrinagar Dam",
+        "plant:source": "hydro",
+        "power": "plant",
+        "waterway": "dam",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8314861,
+          30.2404195
+        ]
+      },
+      "id": "way/823015162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/823477058",
+        "alt_name": "Dharasu Power Station",
+        "building": "yes",
+        "name": "Maneri Bhali II Power Station",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "304 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q5269169",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3191394,
+          30.6073798
+        ]
+      },
+      "id": "way/823477058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/823477061",
+        "building": "industrial",
+        "name": "Dhakrani Power Plant",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "33.75 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7366359,
+          30.4560611
+        ]
+      },
+      "id": "way/823477061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/823477062",
+        "building": "industrial",
+        "name": "Chilla",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "144 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q65200293",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2200586,
+          29.9762484
+        ]
+      },
+      "id": "way/823477062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841419238",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7977447,
+          29.9518065
+        ]
+      },
+      "id": "way/841419238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841419239",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7980022,
+          29.951559
+        ]
+      },
+      "id": "way/841419239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841447831",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8041203,
+          29.7984609
+        ]
+      },
+      "id": "way/841447831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841447832",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.804634,
+          29.8001403
+        ]
+      },
+      "id": "way/841447832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841447835",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8019444,
+          29.7965484
+        ]
+      },
+      "id": "way/841447835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841447836",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8002109,
+          29.7946648
+        ]
+      },
+      "id": "way/841447836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880874102",
+        "industrial": "grinding_mill",
+        "landuse": "industrial",
+        "name": "Dhan Mill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5059155,
+          29.2054927
+        ]
+      },
+      "id": "way/880874102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/899918369",
+        "barrier": "wall",
+        "description": "280110",
+        "name": "Project Haridwar 2",
+        "operator": "Rays Power Infra",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.rayspowerinfra.com/solar-projects-and-parks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7572152,
+          29.8741998
+        ]
+      },
+      "id": "way/899918369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/899918370",
+        "barrier": "wall",
+        "description": "354610",
+        "name": "Project Haridwar",
+        "operator": "Rays Power Infra",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.rayspowerinfra.com/solar-projects-and-parks/",
+        "start_date": "2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7365059,
+          29.8784901
+        ]
+      },
+      "id": "way/899918370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/899934422",
+        "barrier": "wall",
+        "description": "214730",
+        "name": "Project Haridwar 4",
+        "operator": "Rays Power Infra",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.rayspowerinfra.com/solar-projects-and-parks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7355496,
+          29.8684868
+        ]
+      },
+      "id": "way/899934422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/903087607",
+        "depot": "bus",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "name": "Roadways Workshop Haldwani Depot",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.53252,
+          29.2238076
+        ]
+      },
+      "id": "way/903087607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/933246003",
+        "building": "industrial",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3851687,
+          30.290635
+        ]
+      },
+      "id": "way/933246003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/972006847",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0020874,
+          29.1891337
+        ]
+      },
+      "id": "way/972006847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/972006850",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.002956,
+          29.1913686
+        ]
+      },
+      "id": "way/972006850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986754576",
+        "barrier": "wall",
+        "description": "277210",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0896455,
+          29.2050378
+        ]
+      },
+      "id": "way/986754576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992972014",
+        "building": "yes",
+        "man_made": "works",
+        "name": "Guru Kripa Eeeth (Bricks)",
+        "product": "bricks",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4854302,
+          29.2166358
+        ]
+      },
+      "id": "way/992972014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/999236374",
+        "barrier": "wall",
+        "description": "148480",
+        "landuse": "industrial",
+        "name": "Gadarpur Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2828919,
+          29.0851245
+        ]
+      },
+      "id": "way/999236374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/999236375",
+        "barrier": "wall",
+        "description": "111520",
+        "name": "Manglaur",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9305878,
+          29.7379331
+        ]
+      },
+      "id": "way/999236375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1000432380",
+        "abandoned": "yes",
+        "building": "yes",
+        "industrial": "slaughterhouse",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.533389,
+          29.2034078
+        ]
+      },
+      "id": "way/1000432380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002377619",
+        "description": "6530",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7546084,
+          29.8780778
+        ]
+      },
+      "id": "way/1002377619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002383580",
+        "description": "66120",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8322683,
+          29.7119501
+        ]
+      },
+      "id": "way/1002383580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002386759",
+        "description": "275360",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8248445,
+          29.7531283
+        ]
+      },
+      "id": "way/1002386759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002542835",
+        "description": "45720",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1560165,
+          29.8235231
+        ]
+      },
+      "id": "way/1002542835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002542836",
+        "description": "80350",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1590784,
+          29.8201179
+        ]
+      },
+      "id": "way/1002542836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002716852",
+        "description": "129720",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7863107,
+          30.4985452
+        ]
+      },
+      "id": "way/1002716852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962842",
+        "description": "6000",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8697835,
+          29.8025924
+        ]
+      },
+      "id": "way/1002962842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962843",
+        "description": "6430",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9834372,
+          29.7645147
+        ]
+      },
+      "id": "way/1002962843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962844",
+        "description": "3310",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9267509,
+          29.7614086
+        ]
+      },
+      "id": "way/1002962844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962845",
+        "description": "4290",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9450825,
+          29.7462192
+        ]
+      },
+      "id": "way/1002962845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962846",
+        "description": "12670",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0015618,
+          29.6317533
+        ]
+      },
+      "id": "way/1002962846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962847",
+        "description": "25570",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0019748,
+          29.6245927
+        ]
+      },
+      "id": "way/1002962847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962848",
+        "description": "44650",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9968089,
+          29.6233289
+        ]
+      },
+      "id": "way/1002962848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962849",
+        "description": "6550",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1973992,
+          29.3141288
+        ]
+      },
+      "id": "way/1002962849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002962850",
+        "description": "13600",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4638994,
+          28.9891499
+        ]
+      },
+      "id": "way/1002962850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003037869",
+        "description": "9030",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7298768,
+          30.4528958
+        ]
+      },
+      "id": "way/1003037869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003037870",
+        "description": "12320",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7346652,
+          30.4571351
+        ]
+      },
+      "id": "way/1003037870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003037871",
+        "description": "20900",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7300324,
+          30.4551126
+        ]
+      },
+      "id": "way/1003037871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003037874",
+        "description": "38640",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8715484,
+          29.9103298
+        ]
+      },
+      "id": "way/1003037874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003037875",
+        "description": "6180",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8708993,
+          29.7754638
+        ]
+      },
+      "id": "way/1003037875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003037876",
+        "description": "5450",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8577083,
+          29.7703739
+        ]
+      },
+      "id": "way/1003037876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1004516616",
+        "description": "12500",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7248168,
+          30.4489662
+        ]
+      },
+      "id": "way/1004516616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1004516622",
+        "description": "9540",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7331377,
+          30.4529027
+        ]
+      },
+      "id": "way/1004516622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007078498",
+        "barrier": "wall",
+        "description": "25740",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7877763,
+          29.9548137
+        ]
+      },
+      "id": "way/1007078498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007082329",
+        "barrier": "wall",
+        "description": "23010",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7629061,
+          29.9051897
+        ]
+      },
+      "id": "way/1007082329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007082332",
+        "barrier": "wall",
+        "description": "33320",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7685194,
+          29.9312452
+        ]
+      },
+      "id": "way/1007082332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735482",
+        "man_made": "works",
+        "name": "Aludecor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0775308,
+          29.9643125
+        ]
+      },
+      "id": "way/1008735482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735483",
+        "man_made": "works",
+        "name": "Hindustan Zinc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0725689,
+          29.9681303
+        ]
+      },
+      "id": "way/1008735483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735484",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0542185,
+          29.9675726
+        ]
+      },
+      "id": "way/1008735484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735485",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0538482,
+          29.9679043
+        ]
+      },
+      "id": "way/1008735485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735486",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0548067,
+          29.9670479
+        ]
+      },
+      "id": "way/1008735486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735487",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0713066,
+          29.9571181
+        ]
+      },
+      "id": "way/1008735487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735488",
+        "man_made": "works",
+        "name": "Hamilton Houseware",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0768501,
+          29.9475444
+        ]
+      },
+      "id": "way/1008735488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735489",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0687343,
+          29.9459146
+        ]
+      },
+      "id": "way/1008735489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735490",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0699863,
+          29.9458525
+        ]
+      },
+      "id": "way/1008735490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735491",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0719918,
+          29.9457422
+        ]
+      },
+      "id": "way/1008735491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735492",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0711844,
+          29.9457898
+        ]
+      },
+      "id": "way/1008735492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735493",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0742382,
+          29.9456201
+        ]
+      },
+      "id": "way/1008735493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735494",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0649599,
+          29.9481884
+        ]
+      },
+      "id": "way/1008735494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735495",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0660098,
+          29.9501424
+        ]
+      },
+      "id": "way/1008735495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735496",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0636715,
+          29.9519095
+        ]
+      },
+      "id": "way/1008735496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735497",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0591336,
+          29.9560568
+        ]
+      },
+      "id": "way/1008735497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735498",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0618571,
+          29.9562781
+        ]
+      },
+      "id": "way/1008735498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735499",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0625632,
+          29.9556453
+        ]
+      },
+      "id": "way/1008735499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735500",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0638722,
+          29.9546712
+        ]
+      },
+      "id": "way/1008735500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735501",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0644987,
+          29.9540987
+        ]
+      },
+      "id": "way/1008735501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735502",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0569976,
+          29.9672634
+        ]
+      },
+      "id": "way/1008735502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735503",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0622022,
+          29.9640167
+        ]
+      },
+      "id": "way/1008735503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735504",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0621709,
+          29.9647916
+        ]
+      },
+      "id": "way/1008735504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735505",
+        "man_made": "works",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0579541,
+          29.9655839
+        ]
+      },
+      "id": "way/1008735505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008735506",
+        "man_made": "works",
+        "name": "Century Metal Recycling",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064149,
+          29.9594534
+        ]
+      },
+      "id": "way/1008735506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1055594455",
+        "industrial": "woodworking",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5257517,
+          29.2165176
+        ]
+      },
+      "id": "way/1055594455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068884943",
+        "addr:street": "Kamalwaganja Road",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "name": "FCI Godown",
+        "name:hi": "उत्तराखंड राज्य भंडागरण विभाग, राज्य भंडार गृह",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4697077,
+          29.2127128
+        ]
+      },
+      "id": "way/1068884943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1070502408",
+        "closed": "yes",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "mapillary": "755479855463655",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4518136,
+          29.2108166
+        ]
+      },
+      "id": "way/1070502408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1089554965",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World Imagery (retreived dy JOSM 08/2022)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8955567,
+          28.8315842
+        ]
+      },
+      "id": "way/1089554965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1091166560",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "industrial": "oil",
+        "landuse": "industrial",
+        "name": "Indane Bottling Plant",
+        "utility": "gas",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5194402,
+          29.1332126
+        ]
+      },
+      "id": "way/1091166560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1096434979",
+        "landuse": "industrial",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7726922,
+          30.5239707
+        ]
+      },
+      "id": "way/1096434979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100996008",
+        "industrial": "oil",
+        "landuse": "industrial",
+        "name": "Indian Oil",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5196297,
+          29.0865286
+        ]
+      },
+      "id": "way/1100996008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100996019",
+        "industrial": "railway",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5197654,
+          29.0828429
+        ]
+      },
+      "id": "way/1100996019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100996022",
+        "industrial": "grinding_mill",
+        "landuse": "industrial",
+        "name": "Mahaveer Agro Products",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5260365,
+          29.0904168
+        ]
+      },
+      "id": "way/1100996022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1117803725",
+        "industrial": "ston",
+        "landuse": "quarry",
+        "resource": "stone",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4082729,
+          29.5401609
+        ]
+      },
+      "id": "way/1117803725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1133508137",
+        "building": "yes",
+        "name": "PATHRI",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0414943,
+          29.9274027
+        ]
+      },
+      "id": "way/1133508137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134191062",
+        "industrial": "food_processing",
+        "landuse": "industrial",
+        "name": "Acne Foods (Britannia)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4904006,
+          29.1534589
+        ]
+      },
+      "id": "way/1134191062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134191064",
+        "abandoned": "yes",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Naina Semconductor Factory",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5060819,
+          29.1420532
+        ]
+      },
+      "id": "way/1134191064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1159386621",
+        "email": "mvtalcind@gmail.com",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Maa Vaishnavi Talc Industries",
+        "phone": "09761454599",
+        "website": "https://www.mvtalc.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5039992,
+          29.1402643
+        ]
+      },
+      "id": "way/1159386621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1163048654",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "name": "Uttarakhand State Warehousing Corporation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3895738,
+          28.9739648
+        ]
+      },
+      "id": "way/1163048654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1163054061",
+        "depot": "bus",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "name": "Rudrapur Bus Depot",
+        "operator": "Uttarakhand Transport Coorporation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4004663,
+          28.9774457
+        ]
+      },
+      "id": "way/1163054061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164690045",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "name": "Indian Fertilizer Corporation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4104878,
+          28.9709573
+        ]
+      },
+      "id": "way/1164690045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164690060",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3988934,
+          29.0337666
+        ]
+      },
+      "id": "way/1164690060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1179903417",
+        "addr:city": "Bageshwar, Uttarakhand",
+        "addr:housenumber": "RQHC+V2M",
+        "addr:postcode": "263642",
+        "landuse": "industrial",
+        "name": "hydel power station",
+        "plant:output:electricity": "yes",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7701026,
+          29.8296002
+        ]
+      },
+      "id": "way/1179903417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1190425384",
+        "depot": "bus",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "name": "ISBT Kathgodam",
+        "operator": "Uttarakhand Transport Comission",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5437505,
+          29.2675632
+        ]
+      },
+      "id": "way/1190425384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1190548697",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "name": "UCF",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5167528,
+          29.1065022
+        ]
+      },
+      "id": "way/1190548697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1190979213",
+        "industrial": "agriculture",
+        "landuse": "industrial",
+        "name": "Aanchal Nainital Milk Producer Cooperation Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5146089,
+          29.067054
+        ]
+      },
+      "id": "way/1190979213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191170388",
+        "description": "15080",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5281543,
+          29.0604677
+        ]
+      },
+      "id": "way/1191170388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191254926",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Pantnagar Seed Processing Plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5152542,
+          29.0166088
+        ]
+      },
+      "id": "way/1191254926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191549184",
+        "industrial": "sawmill",
+        "landuse": "industrial",
+        "name": "Aloka Maple Furnitures",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3886626,
+          28.9749438
+        ]
+      },
+      "id": "way/1191549184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191707546",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3913175,
+          28.9708974
+        ]
+      },
+      "id": "way/1191707546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191881425",
+        "industrial": "food_processing",
+        "landuse": "industrial",
+        "name": "Shiv Shakti Processed Foods Private Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4493677,
+          28.943559
+        ]
+      },
+      "id": "way/1191881425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191881433",
+        "industrial": "food_processing",
+        "landuse": "industrial",
+        "name": "PLA Foods Private Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4488223,
+          28.9423206
+        ]
+      },
+      "id": "way/1191881433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191887667",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Aanchal Animal Fodder Processing Plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4135349,
+          28.9726886
+        ]
+      },
+      "id": "way/1191887667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191887673",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Jai Gurudev Industries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.419454,
+          28.97007
+        ]
+      },
+      "id": "way/1191887673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192020326",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5079078,
+          28.8851184
+        ]
+      },
+      "id": "way/1192020326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192143474",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Interarch",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5021536,
+          28.9198655
+        ]
+      },
+      "id": "way/1192143474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192299021",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Sheel Chand Agroils Private Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4549837,
+          28.9448072
+        ]
+      },
+      "id": "way/1192299021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192306703",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Mahindra Tractors",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.46684,
+          28.938338
+        ]
+      },
+      "id": "way/1192306703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192599996",
+        "industrial": "railway",
+        "landuse": "industrial",
+        "name": "Cargo Shed Rudrapur City",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3798847,
+          28.9707805
+        ]
+      },
+      "id": "way/1192599996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1205848175",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Dabur India Private Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3522441,
+          29.0413148
+        ]
+      },
+      "id": "way/1205848175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224791091",
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "name": "UCF Resin Factory Warehouse",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5280189,
+          29.205441
+        ]
+      },
+      "id": "way/1224791091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225010343",
+        "depot": "truck",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "name": "Bharat Petroleum Corporation Kathgodam Depot",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5439498,
+          29.2635247
+        ]
+      },
+      "id": "way/1225010343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225927273",
+        "industrial": "grinding_mill",
+        "landuse": "industrial",
+        "name": "Mahavir Flour Mill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5199916,
+          29.1703351
+        ]
+      },
+      "id": "way/1225927273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1254531780",
+        "description": "10400",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7169498,
+          29.9285127
+        ]
+      },
+      "id": "way/1254531780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235299",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9439801,
+          29.9090418
+        ]
+      },
+      "id": "way/1270235299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235301",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9369246,
+          29.9086651
+        ]
+      },
+      "id": "way/1270235301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235302",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9402773,
+          29.9084966
+        ]
+      },
+      "id": "way/1270235302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235303",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9416466,
+          29.9092928
+        ]
+      },
+      "id": "way/1270235303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235304",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9390851,
+          29.9123978
+        ]
+      },
+      "id": "way/1270235304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235305",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9292602,
+          29.9129639
+        ]
+      },
+      "id": "way/1270235305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235306",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9309901,
+          29.9138566
+        ]
+      },
+      "id": "way/1270235306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270235307",
+        "industrial": "brickyard",
+        "landuse": "industrial",
+        "source": "Esri World imagery (retreived 04/2024)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9326397,
+          29.9162338
+        ]
+      },
+      "id": "way/1270235307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324693897",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9957969,
+          30.5671792
+        ]
+      },
+      "id": "way/1324693897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1360684891",
+        "landuse": "industrial",
+        "name": "PTCUL KOTHIYALSAIN ,CHAMOLI",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3136088,
+          30.3937988
+        ]
+      },
+      "id": "way/1360684891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1362868968",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "Lime factory",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2865242,
+          30.0872409
+        ]
+      },
+      "id": "way/1362868968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1447993404",
+        "fixme": "position",
+        "location": "underground",
+        "name": "Vishnuprayag hydro power plant",
+        "operator": "Jaiprakash Power Ventures Limited",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "400 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "source": "http://jalindia.com/hydropower.html",
+        "wikidata": "Q65200281",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5456773,
+          30.5670925
+        ]
+      },
+      "id": "way/1447993404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1451833159",
+        "industrial": "telecommunication",
+        "landuse": "industrial",
+        "name": "Tata Communication",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1039531,
+          30.1780866
+        ]
+      },
+      "id": "way/1451833159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1454937716",
+        "name": "Hathiari Power Station",
+        "plant:output:electricity": "120 W",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8854099,
+          30.5244403
+        ]
+      },
+      "id": "way/1454937716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1455212866",
+        "name": "Naitwar Mori Hydro Power Station",
+        "operator": "SJVN",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "2025",
+        "waterway": "dam",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0975044,
+          31.0630221
+        ]
+      },
+      "id": "way/1455212866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463155761",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2173749,
+          29.9146715
+        ]
+      },
+      "id": "way/1463155761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463155841",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6408421,
+          29.6711999
+        ]
+      },
+      "id": "way/1463155841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463155842",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6343319,
+          29.6668742
+        ]
+      },
+      "id": "way/1463155842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463155935",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.259676,
+          29.8980777
+        ]
+      },
+      "id": "way/1463155935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463156012",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2071504,
+          29.8349971
+        ]
+      },
+      "id": "way/1463156012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463424768",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6191189,
+          30.7846495
+        ]
+      },
+      "id": "way/1463424768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463428147",
+        "name": "Singoli Bhatwari hydro power station",
+        "plant:output:electricity": "99 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q65200272",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0475321,
+          30.4098358
+        ]
+      },
+      "id": "way/1463428147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463428149",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0914157,
+          30.5305197
+        ]
+      },
+      "id": "way/1463428149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463428150",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9157658,
+          29.9899696
+        ]
+      },
+      "id": "way/1463428150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466828536",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4105651,
+          28.9988344
+        ]
+      },
+      "id": "way/1466828536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466828537",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4474052,
+          28.9530421
+        ]
+      },
+      "id": "way/1466828537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466828538",
+        "plant:source": "solar",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.342449,
+          30.3324073
+        ]
+      },
+      "id": "way/1466828538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1468713482",
+        "plant:source": "hydro",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6431287,
+          30.5581233
+        ]
+      },
+      "id": "way/1468713482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1533127175",
+        "alt_name": "Mussoorie Bus Stand",
+        "depot": "bus",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "name": "Dehradun Hill Depot",
+        "operator": "Uttarakhand Transport Corporation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0334809,
+          30.3157054
+        ]
+      },
+      "id": "way/1533127175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3886020110",
+        "frequency": "50",
+        "generator:type": "francis_turbine",
+        "name": "Chibro Power Plant",
+        "operator": "Uttarakhand Jal Vidyut Nigam Limited",
+        "plant:output:electricity": "240 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "wikidata": "Q111045557"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7968301,
+          30.5570903
+        ]
+      },
+      "id": "node/3886020110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7847783226",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.860741,
+          29.7035452
+        ]
+      },
+      "id": "node/7847783226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11013496985",
+        "addr:city": "Rishikesh",
+        "addr:postcode": "248145",
+        "addr:street": "Barkot Mafi",
+        "man_made": "works",
+        "name": "Dhanya Dhenu Ice Cream Factory",
+        "name:en": "Dhanya Dhenu Dairy",
+        "operator": "Hariom Nautiyal",
+        "product": "food;training;ice_cream_factory;pickle_factory;csc;dairy;computer_training_center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.231986,
+          30.1821945
+        ]
+      },
+      "id": "node/11013496985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13345181398",
+        "name": "Naitwar Mori Hydro Power Station",
+        "operator": "SJVN",
+        "plant:output:electricity": "60 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0600393,
+          31.0417705
+        ]
+      },
+      "id": "node/13345181398"
+    }
+  ]
+}

@@ -223,7 +223,7 @@ import MapLegend from './MapLegend'
 import EventDetailsPanel from './EventDetailsPanel'
 
 
-const API_BASE_URL = 'http://localhost:8000'
+const API_BASE_URL = 'http://localhost:5000'
 
 
 function FireMap() {
@@ -302,69 +302,85 @@ function FireMap() {
   // ANALYZE SELECTED FIRE
   // ============================================================
 
-  async function handleSelectEvent(event) {
+  // ============================================================
+// ANALYZE SELECTED FIRE
+// ============================================================
 
-    setSelectedEvent(event)
+async function handleSelectEvent(event) {
 
-    setAnalysis(null)
+  console.log("Selected thermal event:", event)
 
-    setAnalysisLoading(true)
+  // Show selected event
+  setSelectedEvent(event)
 
-    try {
+  // Clear previous analysis
+  setAnalysis(null)
 
-      console.log(
-        `Analyzing fire event ${event.id}`
-      )
+  // Clear previous error
+  setAnalysisError(null)
 
-      const response = await fetch(
-        `${API_BASE_URL}/api/analyze/${event.id}`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          }
+  // Show loading
+  setAnalysisLoading(true)
+
+  try {
+
+    console.log(
+      `Analyzing fire event ${event.id}`
+    )
+
+    const response = await fetch(
+      `${API_BASE_URL}/api/analyze/${event.id}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
         }
-      )
-
-      if (!response.ok) {
-
-        const errorData =
-          await response.json().catch(() => ({}))
-
-        throw new Error(
-          errorData.error ||
-          `Analysis failed with status ${response.status}`
-        )
-
       }
+    )
 
-      const result = await response.json()
 
-      console.log(
-        'Analysis result:',
-        result
+    const result = await response.json()
+
+
+    console.log(
+      "Analysis result:",
+      result
+    )
+
+
+    if (!response.ok) {
+
+      throw new Error(
+        result.error ||
+        `Analysis failed with status ${response.status}`
       )
-
-      setAnalysis(result)
-
-    } catch (err) {
-
-      console.error(
-        'Fire analysis failed:',
-        err
-      )
-
-      setAnalysis({
-        error: err.message
-      })
-
-    } finally {
-
-      setAnalysisLoading(false)
 
     }
 
+
+    // Store complete analysis result
+    setAnalysis(result)
+
+
+  } catch (err) {
+
+    console.error(
+      "Fire analysis failed:",
+      err
+    )
+
+    setAnalysisError(
+      err.message
+    )
+
+
+  } finally {
+
+    setAnalysisLoading(false)
+
   }
+
+}
 
 
   // ============================================================
