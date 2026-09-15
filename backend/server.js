@@ -443,7 +443,7 @@ app.get(
 
                         risk_score,
 
-                        rigsk_details,
+                        risk_details,
 
                         created_at
 
@@ -512,7 +512,7 @@ app.get(
 
                             risk_score,
 
-                            rigsk_details,
+                            risk_details,
 
                             created_at
 
@@ -736,7 +736,7 @@ app.post(
 
                     risk_score = $1,
 
-                    rigsk_details = $2
+                    risk_details = $2
 
                 WHERE id = $3
 
