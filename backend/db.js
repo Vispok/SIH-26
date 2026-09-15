@@ -13,4 +13,8 @@ pool.on('connect', ()=>{
     console.log("Database is Connected Successfully");
 });
 
+pool.on("error",(err)=>{
+    console.error("Unexpected PostgreSQL error :",err);
+})
+
 module.exports = pool;
