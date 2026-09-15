@@ -219,16 +219,45 @@ app.get("/api/facilities", async (req, res) => {
 // START SERVER
 // ============================================================
 async function startServer() {
-  try {
-    await pool.query("SELECT 1");
-    app.listen(PORT, () => {
-      console.log(`Node server running on http://localhost:${PORT}`);
-      console.log(`Python server: ${PYTHON_API_URL}`);
-    });
-  } catch (error) {
-    console.error("Could not connect to PostgreSQL:", error);
-    process.exit(1);
-  }
+
+    try {
+
+        await pool.query(
+            "SELECT 1"
+        );
+
+
+        app.listen(
+            PORT,
+            () => {
+
+                console.log(
+                    `Node server running on http://localhost:${PORT}`
+                );
+
+                console.log(
+                    `Python server: ${PYTHON_API_URL}`
+                );
+
+            }
+        );
+
+
+    } catch (error) {
+
+        console.error(
+            "Could not connect to PostgreSQL:"
+        );
+
+        console.error(
+            error
+        );
+
+        process.exit(1);
+
+    }
+
 }
+
 
 startServer();
