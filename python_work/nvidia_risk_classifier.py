@@ -10,7 +10,7 @@ NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "PASTE_YOUR_NVIDIA_API_KEY_HER
 NVIDIA_API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 
 MODEL_NAME = "moonshotai/kimi-k3"
-'''ha wdjh'''
+
 
 def build_prompt(anomaly: dict, facility: dict) -> str:
     return f"""You are a risk-assessment assistant for an industrial fire and
@@ -51,7 +51,7 @@ def classify_risk(anomaly: dict, facility: dict) -> dict:
             {"role": "user", "content": build_prompt(anomaly, facility)}
         ],
         "temperature": 0.2,   
-        "max_tokens": 2000,   
+        "max_tokens": 3000,   
     }
 
     response = requests.post(NVIDIA_API_URL, headers=headers, json=payload, timeout=120)

@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 
-from nvidia_risk_classifier import classify_risk
+from nvidia_risk_classifier import classify_risk as classify_risk_llm  # kept for later, not used by default
+from risk_classifier import classify_risk
 
 app = Flask(__name__)
 
